@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T20:41:00.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" etag="ffRo3YyF2d6nrtaJztHQ" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T20:45:16.864Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" etag="kaqWr1JuyVvOg4mfzVGT" version="17.5.0" type="github">
   <diagram id="ji13-s1qjL8ou1RABo7J" name="Page-1">
     <mxGraphModel dx="1386" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3zQKJhW49B3SMrjvigrW-1" value="start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="420" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3zQKJhW49B3SMrjvigrW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3zQKJhW49B3SMrjvigrW-2" target="3zQKJhW49B3SMrjvigrW-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3zQKJhW49B3SMrjvigrW-2" value="load preset json" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3zQKJhW49B3SMrjvigrW-4" target="roS6D5RcEI_3fUp-NzOn-1">
           <mxGeometry relative="1" as="geometry" />
@@ -23,13 +23,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3zQKJhW49B3SMrjvigrW-4" value="get scene blend shape nodes" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-1" target="roS6D5RcEI_3fUp-NzOn-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="380" />
-              <mxPoint x="330" y="380" />
+              <mxPoint x="180" y="380" />
+              <mxPoint x="270" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -41,8 +41,8 @@
         <mxCell id="roS6D5RcEI_3fUp-NzOn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-1" target="roS6D5RcEI_3fUp-NzOn-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="380" />
-              <mxPoint x="140" y="380" />
+              <mxPoint x="180" y="380" />
+              <mxPoint x="80" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -52,18 +52,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-1" value="are bs nodes from json in scene?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="280" width="120" height="80" as="geometry" />
+          <mxGeometry x="120" y="280" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-4" target="roS6D5RcEI_3fUp-NzOn-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="140" y="630" />
-              <mxPoint x="175" y="630" />
+              <mxPoint x="80" y="630" />
+              <mxPoint x="115" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-4" value="add nodes and weights to &quot;weights not in scene&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-25" value="&amp;nbsp;N&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-8" target="roS6D5RcEI_3fUp-NzOn-11">
           <mxGeometry relative="1" as="geometry" />
@@ -77,22 +77,90 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-8" value="are weight names in scene?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="420" width="140" height="80" as="geometry" />
+          <mxGeometry x="200" y="420" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-11" target="roS6D5RcEI_3fUp-NzOn-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-11" value="add weights to &quot;weights not in scene&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="130" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="roS6D5RcEI_3fUp-NzOn-13" value="apply weight to scene" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-13" value="apply weights to scene" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-16" value="output &quot;weights not in scene&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="660" width="150" height="60" as="geometry" />
+          <mxGeometry x="40" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-33" target="roS6D5RcEI_3fUp-NzOn-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="380" />
+              <mxPoint x="540" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-39" value="&amp;nbsp;N&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="roS6D5RcEI_3fUp-NzOn-37">
+          <mxGeometry x="-0.2098" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-33" target="roS6D5RcEI_3fUp-NzOn-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="380" />
+              <mxPoint x="760" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-40" value="&amp;nbsp;Y&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="roS6D5RcEI_3fUp-NzOn-38">
+          <mxGeometry x="-0.2485" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="roS6D5RcEI_3fUp-NzOn-33" value="are bs nodes from scene in json?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="280" width="130" height="80" as="geometry" />
+          <mxGeometry x="600" y="280" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-35" target="roS6D5RcEI_3fUp-NzOn-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="640" />
+              <mxPoint x="620" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-35" value="add nodes to &quot;weight not in json&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-36" target="roS6D5RcEI_3fUp-NzOn-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="520" />
+              <mxPoint x="680" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-46" value="&amp;nbsp;N&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="roS6D5RcEI_3fUp-NzOn-45">
+          <mxGeometry x="-0.0364" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-36" value="are weight names in json?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-41" value="&amp;nbsp; output &quot;weights not in json&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="roS6D5RcEI_3fUp-NzOn-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="640" />
+              <mxPoint x="620" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roS6D5RcEI_3fUp-NzOn-42" value="add weights to &quot;weights not in json&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
